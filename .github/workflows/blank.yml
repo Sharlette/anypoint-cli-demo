@@ -32,5 +32,5 @@ jobs:
       - name: Print Account Information
         run: >
           npm install -g anypoint-cli-v4 &&
-          anypoint-cli-v4 account:user:describe --organization f59ba8e9-3333-46ef-a277-2bbbd8649b97 --client_id 97989b0693e7491e8d0ca052a727b3bb --client_secret E8330F707f194D239728336CabD915e0 -o json
+          anypoint-cli-v4 account:user:describe --organization 8326b044-c19d-4ae0-9ac2-182ba874e9d4 --client_id 97989b0693e7491e8d0ca052a727b3bb --client_secret E8330F707f194D239728336CabD915e0 -o json
         
